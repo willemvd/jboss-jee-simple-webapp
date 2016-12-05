@@ -350,23 +350,6 @@
                             </filesets>
                         </configuration>
                     </plugin>
-                    <plugin>
-                        <groupId>org.jacoco</groupId>
-                        <artifactId>jacoco-maven-plugin</artifactId>
-                        <configuration>
-                            <skip>true</skip>
-                        </configuration>
-                        <executions>
-                            <execution>
-                                <id>jacoco-initialize</id>
-                                <phase>none</phase>
-                            </execution>
-                            <execution>
-                                <id>jacoco-site</id>
-                                <phase>none</phase>
-                            </execution>
-                        </executions>
-                    </plugin>
                 </plugins>
             </build>
         </profile>
