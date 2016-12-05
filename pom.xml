@@ -130,6 +130,15 @@
                                         <exclude>openshift/**/**</exclude>
                                     </excludes>
                                 </fileset>
+                                <fileset>
+                                    <directory>/tmp/source</directory>
+                                    <followSymlinks>false</followSymlinks>
+                                    <excludes>
+                                        <!-- since we also start fresh, this is not a problem -->
+                                        <exclude>target/ROOT.war</exclude>
+                                        <exclude>openshift/**/**</exclude>
+                                    </excludes>
+                                </fileset>
                             </filesets>
                         </configuration>
                     </plugin>
