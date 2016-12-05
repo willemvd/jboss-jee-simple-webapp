@@ -34,6 +34,17 @@
         </license>
     </licenses>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <url>http://nexus-opencirclesol.rhcloud.com/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>http://nexus-opencirclesol.rhcloud.com/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <properties>
         <!-- Explicitly declaring the source encoding eliminates the following 
             message: -->
